@@ -28,12 +28,12 @@ cd CoreML_quantizer
 ### 3. Run the script from the command line with the following parameters:
 
 ```bash
-python quantize_coreml_model.py <original_model_name> <quantized_model_name> <quantization_bitwidth>
+python quantizer.py <original_model_name> <quantized_model_name> <quantization_bitwidth>
 ```
 
-`<original_model_name>: The name of the original Core ML model (without the .mlmodel extension).`
-`<quantized_model_name>: The desired name for the quantized model (without the .mlmodel extension).`
-`<quantization_bitwidth>: The bitwidth for quantization (8 or 16).`
+- `<original_model_name>`: The name of the original Core ML model (without the .mlmodel extension).
+- `<quantized_model_name>`: The desired name for the quantized model (without the .mlmodel extension).
+- `<quantization_bitwidth>`: The bitwidth for quantization (8 or 16).
 
 
 
