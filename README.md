@@ -16,7 +16,7 @@ pip install coremltools
 ### 1. Clone the repository:
 
 ```bash
-git clone https://github.com/alpatiev/CoreML_quiantizer
+git clone https://github.com/alpatiev/CoreML_quantizer
 ```
 
 ### 2. Navigate to the script directory and move the .mlmodel file to the same path:
